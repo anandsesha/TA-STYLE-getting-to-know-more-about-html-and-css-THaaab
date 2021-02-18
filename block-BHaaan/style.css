@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------My Styling begins here on---------------------*/
+
+.header {
+    text-align: center;
+    background-color: rgb(192, 111, 192);
+    padding-bottom: 20px;
+    word-spacing: 20px;
+}
+
+.header a {
+    color: blue;
+    text-decoration: none;
+}
+
+.images {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 20px;
+    margin-left: 700px;
+} 
+
+h3 {
+    color: rgb(23, 123, 156);
+    line-height: 2.5;
+    text-align: center;
+    margin-right: 315px;
+    padding-top: 30px;
+}
+
+h1 {
+    color: black;
+    line-height: 2.5;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 700px;
+}
+
+p {
+    margin-left: 700px;
+    margin-right: 650px;
+    line-height: 1.8;
+}
+
+article a {
+    margin-left: 700px;
+    text-decoration: none;
+}
+
+hr {
+    margin-left: 700px;
+    margin-right: 630px;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(116, 116, 187);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
